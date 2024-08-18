@@ -1,5 +1,5 @@
 bandcamp album metadata scraper
----
+===
 
 only scrapes basic album metadata:
 
@@ -13,3 +13,28 @@ only scrapes basic album metadata:
    - medium-res + high-res
  - 'about' section
  - 'credits' section
+
+cmd/bcs usage:
+---
+
+	$ bcs https://glassbeams.bandcamp.com/album/mahal
+	title:  Axioms
+	artist: Throwing Snow
+	cover:  https://f4.bcbits.com/img/a0891148291_16.jpg
+	cover:  https://f4.bcbits.com/img/a0891148291_10.jpg
+	tracks:
+	[1] Lumen (https://throwingsnow.bandcamp.com/track/lumen-2)
+	[2] Clasp (https://throwingsnow.bandcamp.com/track/clasp-2)
+	[3] Seren (https://throwingsnow.bandcamp.com/track/seren-2)
+	[4] Glower (https://throwingsnow.bandcamp.com/track/glower-2)
+	[5] Xema (https://throwingsnow.bandcamp.com/track/xema-2)
+	[6] Paint By Numbers (https://throwingsnow.bandcamp.com/track/paint-by-numbers-2)
+	about:
+	
+	---
+	credits:
+	released February 12, 2016
+	
+	            Ross Tones
+	---
+
