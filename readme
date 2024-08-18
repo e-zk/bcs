@@ -1,0 +1,15 @@
+bandcamp album metadata scraper
+---
+
+only scrapes basic album metadata:
+
+ - title
+ - artist
+ - tracks
+   - number
+   - title
+   - duration
+ - cover image url
+   - medium-res + high-res
+ - 'about' section
+ - 'credits' section
