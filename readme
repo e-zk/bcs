@@ -17,7 +17,7 @@ only scrapes basic album metadata:
 cmd/bcs usage:
 ---
 
-	$ bcs https://glassbeams.bandcamp.com/album/mahal
+	$ bcs https://throwingsnow.bandcamp.com/album/axioms
 	title:  Axioms
 	artist: Throwing Snow
 	cover:  https://f4.bcbits.com/img/a0891148291_16.jpg
